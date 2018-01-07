@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0599F3C416E4ADBB0105DC4D /* Pods_WarAppSocialLogIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 955C741E45F44B95B0A62243 /* Pods_WarAppSocialLogIn.framework */; };
+		C177CFAD1FFAA69300EB41EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C177CFAC1FFAA69300EB41EB /* AppDelegate.swift */; };
+		C177CFAF1FFAA69300EB41EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C177CFAE1FFAA69300EB41EB /* ViewController.swift */; };
+		C177CFB21FFAA69300EB41EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C177CFB01FFAA69300EB41EB /* Main.storyboard */; };
+		C177CFB41FFAA69300EB41EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C177CFB31FFAA69300EB41EB /* Assets.xcassets */; };
+		C177CFB71FFAA69300EB41EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C177CFB51FFAA69300EB41EB /* LaunchScreen.storyboard */; };
+		C177CFBF1FFD2A5800EB41EB /* SocialLogInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C177CFBE1FFD2A5800EB41EB /* SocialLogInController.swift */; };
+		C177CFC11FFD5A1D00EB41EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C177CFC01FFD5A1D00EB41EB /* GoogleService-Info.plist */; };
+		C177CFC51FFEA11400EB41EB /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C177CFC31FFEA11400EB41EB /* FBSDKCoreKit.framework */; };
+		C177CFC61FFEA11400EB41EB /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C177CFC41FFEA11400EB41EB /* FBSDKLoginKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5417DF3EE14C4B22ABED6408 /* Pods-WarAppSocialLogIn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarAppSocialLogIn.release.xcconfig"; path = "Pods/Target Support Files/Pods-WarAppSocialLogIn/Pods-WarAppSocialLogIn.release.xcconfig"; sourceTree = "<group>"; };
+		785016DDC9E523D1763669A3 /* Pods-WarAppSocialLogIn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarAppSocialLogIn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WarAppSocialLogIn/Pods-WarAppSocialLogIn.debug.xcconfig"; sourceTree = "<group>"; };
+		955C741E45F44B95B0A62243 /* Pods_WarAppSocialLogIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WarAppSocialLogIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C177CFA91FFAA69300EB41EB /* WarAppSocialLogIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarAppSocialLogIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C177CFAC1FFAA69300EB41EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C177CFAE1FFAA69300EB41EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C177CFB11FFAA69300EB41EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C177CFB31FFAA69300EB41EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C177CFB61FFAA69300EB41EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C177CFB81FFAA69300EB41EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C177CFBE1FFD2A5800EB41EB /* SocialLogInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLogInController.swift; sourceTree = "<group>"; };
+		C177CFC01FFD5A1D00EB41EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C177CFC21FFD5FC400EB41EB /* WarAppSocialLogIn-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WarAppSocialLogIn-Bridging-Header.h"; sourceTree = "<group>"; };
+		C177CFC31FFEA11400EB41EB /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../Downloads/FacebookSDKs-iOS-4.29.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		C177CFC41FFEA11400EB41EB /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../Downloads/FacebookSDKs-iOS-4.29.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C177CFA61FFAA69300EB41EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0599F3C416E4ADBB0105DC4D /* Pods_WarAppSocialLogIn.framework in Frameworks */,
+				C177CFC51FFEA11400EB41EB /* FBSDKCoreKit.framework in Frameworks */,
+				C177CFC61FFEA11400EB41EB /* FBSDKLoginKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AAB3A7E8E73DC2527C25393 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				785016DDC9E523D1763669A3 /* Pods-WarAppSocialLogIn.debug.xcconfig */,
+				5417DF3EE14C4B22ABED6408 /* Pods-WarAppSocialLogIn.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7D6C09C37323337758B41A6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C177CFC31FFEA11400EB41EB /* FBSDKCoreKit.framework */,
+				C177CFC41FFEA11400EB41EB /* FBSDKLoginKit.framework */,
+				955C741E45F44B95B0A62243 /* Pods_WarAppSocialLogIn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C177CFA01FFAA69300EB41EB = {
+			isa = PBXGroup;
+			children = (
+				C177CFAB1FFAA69300EB41EB /* WarApp */,
+				C177CFAA1FFAA69300EB41EB /* Products */,
+				2AAB3A7E8E73DC2527C25393 /* Pods */,
+				7D6C09C37323337758B41A6F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C177CFAA1FFAA69300EB41EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C177CFA91FFAA69300EB41EB /* WarAppSocialLogIn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C177CFAB1FFAA69300EB41EB /* WarApp */ = {
+			isa = PBXGroup;
+			children = (
+				C177CFAC1FFAA69300EB41EB /* AppDelegate.swift */,
+				C177CFAE1FFAA69300EB41EB /* ViewController.swift */,
+				C177CFB01FFAA69300EB41EB /* Main.storyboard */,
+				C177CFBE1FFD2A5800EB41EB /* SocialLogInController.swift */,
+				C177CFB31FFAA69300EB41EB /* Assets.xcassets */,
+				C177CFB51FFAA69300EB41EB /* LaunchScreen.storyboard */,
+				C177CFB81FFAA69300EB41EB /* Info.plist */,
+				C177CFC01FFD5A1D00EB41EB /* GoogleService-Info.plist */,
+				C177CFC21FFD5FC400EB41EB /* WarAppSocialLogIn-Bridging-Header.h */,
+			);
+			path = WarApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C177CFA81FFAA69300EB41EB /* WarAppSocialLogIn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C177CFBB1FFAA69300EB41EB /* Build configuration list for PBXNativeTarget "WarAppSocialLogIn" */;
+			buildPhases = (
+				DBB2510B03AF0814F7D67DD1 /* [CP] Check Pods Manifest.lock */,
+				C177CFA51FFAA69300EB41EB /* Sources */,
+				C177CFA61FFAA69300EB41EB /* Frameworks */,
+				C177CFA71FFAA69300EB41EB /* Resources */,
+				860CC1C6ADC8603C686886D6 /* [CP] Embed Pods Frameworks */,
+				BA04EA6A247C91EF51CB3DF3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WarAppSocialLogIn;
+			productName = WarApp;
+			productReference = C177CFA91FFAA69300EB41EB /* WarAppSocialLogIn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C177CFA11FFAA69300EB41EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Marvin Laucher";
+				TargetAttributes = {
+					C177CFA81FFAA69300EB41EB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C177CFA41FFAA69300EB41EB /* Build configuration list for PBXProject "WarAppSocialLogIn" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C177CFA01FFAA69300EB41EB;
+			productRefGroup = C177CFAA1FFAA69300EB41EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C177CFA81FFAA69300EB41EB /* WarAppSocialLogIn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C177CFA71FFAA69300EB41EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C177CFB71FFAA69300EB41EB /* LaunchScreen.storyboard in Resources */,
+				C177CFC11FFD5A1D00EB41EB /* GoogleService-Info.plist in Resources */,
+				C177CFB41FFAA69300EB41EB /* Assets.xcassets in Resources */,
+				C177CFB21FFAA69300EB41EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		860CC1C6ADC8603C686886D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WarAppSocialLogIn/Pods-WarAppSocialLogIn-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WarAppSocialLogIn/Pods-WarAppSocialLogIn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA04EA6A247C91EF51CB3DF3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WarAppSocialLogIn/Pods-WarAppSocialLogIn-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WarAppSocialLogIn/Pods-WarAppSocialLogIn-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBB2510B03AF0814F7D67DD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WarAppSocialLogIn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C177CFA51FFAA69300EB41EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C177CFBF1FFD2A5800EB41EB /* SocialLogInController.swift in Sources */,
+				C177CFAF1FFAA69300EB41EB /* ViewController.swift in Sources */,
+				C177CFAD1FFAA69300EB41EB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C177CFB01FFAA69300EB41EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C177CFB11FFAA69300EB41EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C177CFB51FFAA69300EB41EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C177CFB61FFAA69300EB41EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C177CFB91FFAA69300EB41EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C177CFBA1FFAA69300EB41EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C177CFBC1FFAA69300EB41EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 785016DDC9E523D1763669A3 /* Pods-WarAppSocialLogIn.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3725VKX58;
+				INFOPLIST_FILE = WarApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.warapp.WarApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C177CFBD1FFAA69300EB41EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5417DF3EE14C4B22ABED6408 /* Pods-WarAppSocialLogIn.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3725VKX58;
+				INFOPLIST_FILE = WarApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.warapp.WarApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C177CFA41FFAA69300EB41EB /* Build configuration list for PBXProject "WarAppSocialLogIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C177CFB91FFAA69300EB41EB /* Debug */,
+				C177CFBA1FFAA69300EB41EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C177CFBB1FFAA69300EB41EB /* Build configuration list for PBXNativeTarget "WarAppSocialLogIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C177CFBC1FFAA69300EB41EB /* Debug */,
+				C177CFBD1FFAA69300EB41EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C177CFA11FFAA69300EB41EB /* Project object */;
+}
